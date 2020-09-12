@@ -1,0 +1,17 @@
+navigation {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  background: aliceblue;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    height: 100%;
+    li {
+      margin: 1rem 5rem;
+    }
+  }
+}
