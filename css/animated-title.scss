@@ -250,3 +250,235 @@
     }
   }
 }
+
+.animated-title-05 {
+  display: none;
+}
+
+#intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 {
+  display: block;
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9;
+  > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+    div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center;
+      span {
+        display: block;
+      }
+    }
+  }
+  div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%);
+    span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+  }
+  div.text-bottom {
+    bottom: 0;
+
+    div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200;
+      button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none;
+      }
+    }
+  }
+}
+
+.animated-title-06 {
+  display: none;
+}
+
+#intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 {
+  display: block;
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9;
+  > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+    div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center;
+      span {
+        display: block;
+      }
+    }
+  }
+  div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%);
+    span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+  }
+  div.text-bottom {
+    bottom: 0;
+
+    div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200;
+      button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none;
+      }
+    }
+  }
+}
+
+.animated-title-07 {
+  display: none;
+}
+
+#intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 {
+  display: block;
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9;
+  > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+    div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center;
+      span {
+        display: block;
+      }
+    }
+  }
+  div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%);
+    span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+  }
+  div.text-bottom {
+    bottom: 0;
+
+    div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200;
+      button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none;
+      }
+    }
+  }
+}
+
+.animated-title-08 {
+  display: none;
+}
+
+#intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 {
+  display: block;
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, -50%);
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9;
+  > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+    div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center;
+      span {
+        display: block;
+      }
+    }
+  }
+  div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%);
+    span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+  }
+  div.text-bottom {
+    bottom: 0;
+
+    div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200;
+      button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none;
+      }
+    }
+  }
+}

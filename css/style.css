@@ -428,6 +428,178 @@ body.blue footer {
       font-size: 1.2rem;
       color: #ffffff; }
 
+.animated-title-05 {
+  display: none; }
+
+#intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 {
+  display: block;
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9; }
+  #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center; }
+    #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 > div div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center; }
+      #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 > div div span {
+        display: block; }
+  #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%); }
+    #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 div.text-top div span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem; }
+  #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 div.text-bottom {
+    bottom: 0; }
+    #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 div.text-bottom div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200; }
+      #intro-5:checked ~ .intro-5 .intro-inner .animated-title-05 div.text-bottom div button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none; }
+
+.animated-title-06 {
+  display: none; }
+
+#intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 {
+  display: block;
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9; }
+  #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center; }
+    #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 > div div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center; }
+      #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 > div div span {
+        display: block; }
+  #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%); }
+    #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 div.text-top div span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem; }
+  #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 div.text-bottom {
+    bottom: 0; }
+    #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 div.text-bottom div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200; }
+      #intro-6:checked ~ .intro-6 .intro-inner .animated-title-06 div.text-bottom div button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none; }
+
+.animated-title-07 {
+  display: none; }
+
+#intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 {
+  display: block;
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9; }
+  #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center; }
+    #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 > div div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center; }
+      #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 > div div span {
+        display: block; }
+  #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%); }
+    #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 div.text-top div span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem; }
+  #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 div.text-bottom {
+    bottom: 0; }
+    #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 div.text-bottom div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200; }
+      #intro-7:checked ~ .intro-7 .intro-inner .animated-title-07 div.text-bottom div button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none; }
+
+.animated-title-08 {
+  display: none; }
+
+#intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 {
+  display: block;
+  color: #ffffff;
+  height: 87rem;
+  width: 100%;
+  text-align: center;
+  z-index: 9; }
+  #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 > div {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center; }
+    #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 > div div {
+      position: absolute;
+      width: 100%;
+      font-size: 2.6rem;
+      font-weight: 400;
+      text-align: center; }
+      #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 > div div span {
+        display: block; }
+  #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 div.text-top div {
+    bottom: 0;
+    transform: translate(0, 100%); }
+    #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 div.text-top div span:first-child {
+      font-size: 3.4rem;
+      font-weight: 300;
+      margin-bottom: 2rem; }
+  #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 div.text-bottom {
+    bottom: 0; }
+    #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 div.text-bottom div {
+      top: 0;
+      transform: translate(0, -100%);
+      font-size: 1.8rem;
+      font-weight: 200; }
+      #intro-8:checked ~ .intro-8 .intro-inner .animated-title-08 div.text-bottom div button {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background: none; }
+
 @keyframes showTopText {
   0% {
     transform: translate3d(0, 100%, 0); }
@@ -8335,13 +8507,6 @@ navigation {
     .slide-box .intro .intro-inner {
       width: 100%;
       height: 100%; }
-  .slide-box .animated-title-01 {
-    width: 100%;
-    height: 100rem;
-    background: url("../images/banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; }
 
 .slide-box {
   width: 100%;
@@ -8390,10 +8555,10 @@ navigation {
         .slide-box .inner .indicator ul li label {
           cursor: pointer;
           display: block;
-          width: 1rem;
-          height: 1rem;
+          width: 2rem;
+          height: 2rem;
           margin: 0 .5rem 0 .5rem;
-          border: .1rem solid #ffffff;
+          border: .1rem solid #4855a0;
           border-radius: 50%; }
           .slide-box .inner .indicator ul li label.active, .slide-box .inner .indicator ul li label:hover, .slide-box .inner .indicator ul li label:active {
             background: #ffffff; }
@@ -8401,7 +8566,7 @@ navigation {
 .intro-1 {
   background: orange;
   background: url("../images/banner.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat; }
 
 .intro-2 {
@@ -8435,8 +8600,8 @@ navigation {
 div.control-box {
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
   height: 10rem;
+  width: 100%;
   z-index: 999; }
   div.control-box .intro-control {
     border-radius: 50%;
@@ -8453,14 +8618,16 @@ div.control-box {
       background-size: 2rem;
       background-position: center center;
       border: .1rem solid #ffffff;
-      left: 0; }
+      left: 2rem; }
     div.control-box .intro-control.next {
-      background: #231f20 url("../images/icon-arrow.png");
+      width: 4rem;
+      height: 4rem;
+      background: #000000;
       background-repeat: no-repeat;
       background-size: 2rem;
       background-position: center center;
       border-radius: 50%;
-      right: 0; }
+      right: 2rem; }
 
 .intro-control:hover {
   background-repeat: no-repeat;
@@ -8481,10 +8648,10 @@ div.control-box {
 #intro-2:checked ~ .intro-2 ~ .indicator li:nth-child(2) label,
 #intro-3:checked ~ .intro-3 ~ .indicator li:nth-child(3) label,
 #intro-4:checked ~ .intro-4 ~ .indicator li:nth-child(4) label,
-#intro-5:checked ~ .intro-3 ~ .indicator li:nth-child(5) label,
-#intro-6:checked ~ .intro-3 ~ .indicator li:nth-child(6) label,
-#intro-7:checked ~ .intro-3 ~ .indicator li:nth-child(7) label,
-#intro-8:checked ~ .intro-3 ~ .indicator li:nth-child(8) label {
-  background: #000000; }
+#intro-5:checked ~ .intro-5 ~ .indicator li:nth-child(5) label,
+#intro-6:checked ~ .intro-6 ~ .indicator li:nth-child(6) label,
+#intro-7:checked ~ .intro-7 ~ .indicator li:nth-child(7) label,
+#intro-8:checked ~ .intro-8 ~ .indicator li:nth-child(8) label {
+  background: #7caed4; }
 
 /*# sourceMappingURL=style.css.map */
