@@ -8381,7 +8381,8 @@ navigation {
       width: 100%;
       top: 95%;
       left: 50%;
-      transform: translate(-50%, -50%); }
+      transform: translate(-50%, -50%);
+      z-index: 999; }
       .slide-box .inner .indicator ul {
         display: flex;
         align-items: center;
@@ -8433,32 +8434,26 @@ navigation {
 
 div.control-box {
   position: absolute;
-  top: 95%;
-  right: 20%;
+  top: 50%;
   transform: translate(-50%, -50%);
-  width: 10rem;
-  height: 10rem; }
+  height: 10rem;
+  z-index: 999; }
   div.control-box .intro-control {
     border-radius: 50%;
     cursor: pointer;
     display: none;
     width: 5rem;
     height: 5rem;
-    position: absolute;
-    bottom: 5rem;
-    z-index: 10; }
+    position: absolute; }
     div.control-box .intro-control.prev {
       width: 4rem;
       height: 4rem;
-      background: url("../images/icon-arrow.png");
+      background: #000000;
       background-repeat: no-repeat;
       background-size: 2rem;
       background-position: center center;
       border: .1rem solid #ffffff;
-      right: 3.9rem;
-      bottom: 5.4rem;
-      transform: translate(50%, 50%) rotate(180deg);
-      z-index: 12; }
+      left: 0; }
     div.control-box .intro-control.next {
       background: #231f20 url("../images/icon-arrow.png");
       background-repeat: no-repeat;
