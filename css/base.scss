@@ -76,6 +76,10 @@ input {
   border: 0;
 }
 
+input[type=radio] {
+  display: none;
+}
+
 input[type=email],
 input[type=password],
 input[type=text],
@@ -189,7 +193,7 @@ section.full {
 
 footer {
   z-index: 0;
-  position: relative;
+  //position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
