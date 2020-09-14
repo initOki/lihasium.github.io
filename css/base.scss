@@ -193,7 +193,8 @@ section.full {
 
 footer {
   z-index: 0;
-  //position: relative;
+  position: relative;
+  bottom: 0;
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;

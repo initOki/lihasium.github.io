@@ -192,6 +192,8 @@ section.full {
 
 footer {
   z-index: 0;
+  position: relative;
+  bottom: 0;
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
@@ -8304,12 +8306,10 @@ body.blue footer {
 main {
   display: block;
   width: 100%;
-  height: auto;
-  border: .1rem solid #000000;
+  height: 100vh;
   font-size: 1.8rem;
   font-weight: bold;
-  text-align: center;
-  line-height: 100vh; }
+  text-align: center; }
 
 navigation {
   display: block;
@@ -8342,5 +8342,154 @@ navigation {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; }
+
+.slide-box {
+  width: 100%;
+  height: 73rem;
+  top: 0;
+  left: 0;
+  z-index: 0; }
+  .slide-box .inner {
+    width: 100%;
+    height: 100vh; }
+    .slide-box .inner input[type=radio] {
+      display: none; }
+    .slide-box .inner .intro-open:checked + .main-explain {
+      opacity: 1; }
+    .slide-box .inner .main-explain {
+      text-align: center;
+      color: #ffffff;
+      font-weight: 400;
+      border-bottom: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      -webkit-transition: opacity 0.3s ease-out;
+      transition: opacity 0.3s ease-out; }
+      .slide-box .inner .main-explain .intro-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        max-width: 204rem;
+        margin: 0 auto; }
+    .slide-box .inner .indicator {
+      position: absolute;
+      width: 100%;
+      top: 95%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .slide-box .inner .indicator ul {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .slide-box .inner .indicator ul li label {
+          cursor: pointer;
+          display: block;
+          width: 1rem;
+          height: 1rem;
+          margin: 0 .5rem 0 .5rem;
+          border: .1rem solid #ffffff;
+          border-radius: 50%; }
+          .slide-box .inner .indicator ul li label.active, .slide-box .inner .indicator ul li label:hover, .slide-box .inner .indicator ul li label:active {
+            background: #ffffff; }
+
+.intro-1 {
+  background: orange;
+  background: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.intro-2 {
+  background: blue;
+  background-size: cover; }
+
+.intro-3 {
+  background: red;
+  background-size: cover; }
+
+.intro-4 {
+  background: orange;
+  background-size: cover; }
+
+.intro-5 {
+  background: orangered;
+  background-size: cover; }
+
+.intro-6 {
+  background: skyblue;
+  background-size: cover; }
+
+.intro-7 {
+  background: deepskyblue;
+  background-size: cover; }
+
+.intro-8 {
+  background: palevioletred;
+  background-size: cover; }
+
+div.control-box {
+  position: absolute;
+  top: 95%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 10rem; }
+  div.control-box .intro-control {
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    bottom: 5rem;
+    z-index: 10; }
+    div.control-box .intro-control.prev {
+      width: 4rem;
+      height: 4rem;
+      background: url("../images/icon-arrow.png");
+      background-repeat: no-repeat;
+      background-size: 2rem;
+      background-position: center center;
+      border: .1rem solid #ffffff;
+      right: 3.9rem;
+      bottom: 5.4rem;
+      transform: translate(50%, 50%) rotate(180deg);
+      z-index: 12; }
+    div.control-box .intro-control.next {
+      background: #231f20 url("../images/icon-arrow.png");
+      background-repeat: no-repeat;
+      background-size: 2rem;
+      background-position: center center;
+      border-radius: 50%;
+      right: 0; }
+
+.intro-control:hover {
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: center center; }
+
+#intro-1:checked ~ .control-box .control-1,
+#intro-2:checked ~ .control-box .control-2,
+#intro-3:checked ~ .control-box .control-3,
+#intro-4:checked ~ .control-box .control-4,
+#intro-5:checked ~ .control-box .control-5,
+#intro-6:checked ~ .control-box .control-6,
+#intro-7:checked ~ .control-box .control-7,
+#intro-8:checked ~ .control-box .control-8 {
+  display: block; }
+
+#intro-1:checked ~ .intro-1 ~ .indicator li:nth-child(1) label,
+#intro-2:checked ~ .intro-2 ~ .indicator li:nth-child(2) label,
+#intro-3:checked ~ .intro-3 ~ .indicator li:nth-child(3) label,
+#intro-4:checked ~ .intro-4 ~ .indicator li:nth-child(4) label,
+#intro-5:checked ~ .intro-3 ~ .indicator li:nth-child(5) label,
+#intro-6:checked ~ .intro-3 ~ .indicator li:nth-child(6) label,
+#intro-7:checked ~ .intro-3 ~ .indicator li:nth-child(7) label,
+#intro-8:checked ~ .intro-3 ~ .indicator li:nth-child(8) label {
+  background: #000000; }
 
 /*# sourceMappingURL=style.css.map */
