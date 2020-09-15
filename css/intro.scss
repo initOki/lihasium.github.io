@@ -2,21 +2,14 @@
   display: block;
   width: auto;
   padding: 0;
+  position: relative;
   .intro {
-    height: 100%;
+    //height: 100%;
     .intro-inner {
       width: 100%;
-      height: 100%;
+      //height: 100%;
     }
   }
-  //.animated-title-01 {
-  //  width: 100%;
-  //  height: 100rem;
-  //  background: url("../images/banner.jpg");
-  //  background-size: cover;
-  //  background-repeat: no-repeat;
-  //  background-position: center center;
-  //}
 }
 
 
@@ -28,9 +21,9 @@
   left: 0;
   z-index: 0;
   .inner {
-    //position: relative;
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 73rem;
     input[type=radio] {
       display: none;
     }
@@ -62,7 +55,7 @@
     .indicator {
       position: absolute;
       width: 100%;
-      top: 95%;
+      top: 100%;
       left: 50%;
       transform: translate( -50%, -50%);
       z-index: 999;
@@ -93,56 +86,63 @@
 
 .intro-1 {
   background: orange;
-  background: url("../images/banner.jpg");
+  background: url("../images/slide-01.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .intro-2 {
   background: blue;
-  //background: url("../images/banner.jpg");
-  background-size: cover;
+  background: url("../images/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .intro-3 {
   background: red;
-  //background: url("../images/banner.jpg");
-  background-size: cover;
+  background: url("../images/bg-02.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .intro-4 {
   background: orange;
-  //background: url("../images/banner.jpg");
-  background-size: cover;
+  background: url("../images/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .intro-5 {
   background: orangered;
-  //background: url("../images/banner.jpg");
-  background-size: cover;
+  background: url("../images/bg-02.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .intro-6 {
   background: skyblue;
-  //background: url("../images/banner.jpg");
-  background-size: cover;
+  background: url("../images/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .intro-7 {
-  background: deepskyblue;
-  //background: url("../images/banner.jpg");
-  background-size: cover;
+  background: orangered;
+  background: url("../images/bg-02.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .intro-8 {
   background: palevioletred;
-  //background: url("../images/banner.jpg");
-  background-size: cover;
+  background: url("../images/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 div.control-box {
   position: absolute;
-  top: 50%;
+  top: 45%;
   //right: 20%;
   //transform: translate( -50%, -50%);
   //width: 100%;
