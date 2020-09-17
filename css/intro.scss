@@ -15,15 +15,13 @@
 
 .slide-box {
   width: 100%;
-  height: 73rem;
-  //position: absolute;
-  top: 0;
-  left: 0;
+  height: 85rem;
+  position: relative;
   z-index: 0;
   .inner {
     position: relative;
     width: 100%;
-    height: 73rem;
+    height: 100%;
     input[type=radio] {
       display: none;
     }
@@ -55,7 +53,7 @@
     .indicator {
       position: absolute;
       width: 100%;
-      top: 100%;
+      top: 98%;
       left: 50%;
       transform: translate( -50%, -50%);
       z-index: 999;
@@ -87,56 +85,32 @@
 .intro-1 {
   background: orange;
   background: url("../images/slide-01.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .intro-2 {
   background: blue;
   background: url("../images/bg.png");
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .intro-3 {
   background: red;
   background: url("../images/bg-02.png");
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .intro-4 {
   background: orange;
   background: url("../images/bg.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.intro-5 {
-  background: orangered;
-  background: url("../images/bg-02.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.intro-6 {
-  background: skyblue;
-  background: url("../images/bg.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.intro-7 {
-  background: orangered;
-  background: url("../images/bg-02.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.intro-8 {
-  background: palevioletred;
-  background: url("../images/bg.png");
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -194,21 +168,13 @@ div.control-box {
 #intro-1:checked ~ .control-box .control-1,
 #intro-2:checked ~ .control-box .control-2,
 #intro-3:checked ~ .control-box .control-3,
-#intro-4:checked ~ .control-box .control-4,
-#intro-5:checked ~ .control-box .control-5,
-#intro-6:checked ~ .control-box .control-6,
-#intro-7:checked ~ .control-box .control-7,
-#intro-8:checked ~ .control-box .control-8,{
+#intro-4:checked ~ .control-box .control-4 {
   display: block;
 }
 
 #intro-1:checked ~ .intro-1 ~ .indicator li:nth-child(1) label,
 #intro-2:checked ~ .intro-2 ~ .indicator li:nth-child(2) label,
 #intro-3:checked ~ .intro-3 ~ .indicator li:nth-child(3) label,
-#intro-4:checked ~ .intro-4 ~ .indicator li:nth-child(4) label,
-#intro-5:checked ~ .intro-5 ~ .indicator li:nth-child(5) label,
-#intro-6:checked ~ .intro-6 ~ .indicator li:nth-child(6) label,
-#intro-7:checked ~ .intro-7 ~ .indicator li:nth-child(7) label,
-#intro-8:checked ~ .intro-8 ~ .indicator li:nth-child(8) label,{
+#intro-4:checked ~ .intro-4 ~ .indicator li:nth-child(4) label {
   background: #7caed4;
 }

@@ -89,6 +89,12 @@
   animation-fill-mode: forwards;
 }
 
+.ani-showrighttext-delay-2 { //오른쪽에서 왼쪽
+  animation: showRightText 0.8s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
 ///////////////////////
 // bounce animation  //
 ///////////////////////
